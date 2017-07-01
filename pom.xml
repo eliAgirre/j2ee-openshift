@@ -5,8 +5,8 @@
     <artifactId>j2ee-openshift</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>java-web-sample</name>
+    <name>java-web-openshift</name>
     <build>
-        <finalName>java-web-sample</finalName>
+        <finalName>java-web-openshift</finalName>
     </build>
 </project>
