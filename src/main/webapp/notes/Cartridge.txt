@@ -1,0 +1,25 @@
+Application created. Continue to overview.
+Manage your app
+
+The web console is convenient, but if you need deeper control you may want to try our command line tools.
+Command line tools
+
+Download and install the oc command line tool. After that, you can start by logging in, switching to this particular project, and displaying an overview of it, by doing:
+
+oc login https://api.starter-us-west-2.openshift.com
+oc project j2ee
+oc status
+
+For more information about the command line tools, check the CLI Reference and Basic CLI Operations.
+Making code changes
+
+A GitHub webhook trigger has been created for the j2ee build config.
+
+You can now set up the webhook in the GitHub repository settings if you own it, in https://github.com/eliAgirre/j2ee-openshift/settings/hooks, using the following payload URL and specifying a Content type of application/json:
+
+
+
+Cartridges
+---------
+
+Tomcat 7 (JBoss EWS 2.0) 
